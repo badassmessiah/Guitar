@@ -1,0 +1,132 @@
+/* 480px */
+
+@media (max-width: 480px) {
+    header .header_content {
+        padding: 16px 10px;
+        height: 96px;
+    }
+
+    .hero {
+        min-height: 480px;
+        height: 480px;
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pagination button {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .pagination span {
+        font-size: 12px;
+    }
+
+    .filter-btn,
+    .sort label {
+        font-size: 14px;
+    }
+
+    .filter-btn span {
+        display: none;
+    }
+
+    .sort select {
+        appearance: none;
+        background-image: url("../images/sort.png");
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        background-size: 15px;
+        color: transparent;
+        width: 35px;
+    }
+
+    .sort select:focus {
+        color: #333;
+        background-color: #fff;
+        border: 1px solid #A1C3C9;
+    }
+
+    .sort select option {
+        color: #333;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    .contact-info .title {
+        font-size: 32px;
+    }
+
+    .buttons_section_button {
+        width: 34px;
+        height: 34px;
+    }
+
+    .buttons_section {
+        column-gap: 15px;
+    }
+
+
+    .card {
+        flex: 0 0 270px;
+    }
+
+    .hero figcaption {
+        font-size: 1.2rem;
+    }
+
+    .header_logo {
+        width: 45px;
+        height: 65px;
+    }
+
+    .border_bottom {
+        width: 50%;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+    .contact-info .title {
+        font-size: 24px;
+    }
+
+    header .header_content {
+        padding: 16px 10px;
+        height: 96px;
+    }
+
+    .hero {
+        min-height: 320px;
+        height: 320px;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .hero figure {
+        margin-top: -220px;
+        position: relative;
+    }
+
+    .hero figcaption {
+        font-size: 1rem;
+        padding: 0.25rem 0.5rem;
+        gap: 4px;
+    }
+
+}
